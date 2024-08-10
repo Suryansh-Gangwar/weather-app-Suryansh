@@ -10,11 +10,13 @@ const UTCDatetime = () => {
       component="h3"
       sx={{
         fontWeight: '400',
-        fontSize: { xs: '10px', sm: '12px' },
-        color: 'rgba(255, 255, 255, .7)',
+        fontSize: { xs: '10px', sm: '15px' },
+        color: 'rgba(255, 255, 255, .9)', // Brighter color
         lineHeight: 1,
         paddingRight: '2px',
         fontFamily: 'Poppins',
+        textAlign: 'center', // Center align text
+        margin: '0 auto', // Center align component
       }}
     >
       {utcFullDate} GMT
